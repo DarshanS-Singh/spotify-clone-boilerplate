@@ -1,0 +1,156 @@
+body{
+    background-color: #121212;
+    margin: -0px;
+    font-family: DM 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.middlePart{
+    display: flex;
+    justify-content: space-between;
+    gap: 0px;
+    height: 650px;
+
+}
+.middleLeft{
+    background-color: black;
+    width: 220px;
+    padding: 20px;
+}
+.sline{
+    background-color: gray;
+    height: 1px;
+}
+.middleRight{
+    background-color: #121212;
+    
+}
+h6{
+    font-size: 25px;
+    color: white;
+    margin: 30px;
+    margin-left: 50px;
+}
+
+/* header */
+
+select{
+    border-radius: 50px;
+    font-size: 25px;
+    background-color: rgb(16, 16, 16);
+    color: white;
+    padding: 5px;
+    width: 100px;
+    margin-left: -1px;
+}
+
+.pfp {
+    position: absolute;
+    border-radius: 50%;
+    margin-right: px;
+    z-index: 1;
+}
+
+header{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    gap: 1000px;
+    margin-right: 50px;
+}
+
+.headerR{
+    display: flex;
+    
+}
+
+.headerL{
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+}
+
+p{
+    color: white;
+}
+.headL{
+    display: flex;
+    align-items: baseline;
+}
+.lmno{
+    border-radius: 50%;
+    color: white;
+    background-color: rgb(39, 38, 38);
+    height: 40px;
+    width: 40px;
+    padding-left: 10px;
+}
+
+.lmnp{
+    border-radius: 50%;
+    color: white;
+    background-color: rgb(39, 38, 38);
+    height: 40px;
+    width: 40px;
+}
+
+.musicController{
+    background-color: rgb(20, 19, 19);
+    height: 100px;
+}
+
+.left{
+    display: flex;
+    width: 300px;
+    gap: 10px;
+    align-items: center;
+    padding: 20px;
+}
+
+.leftFlexbox1{
+    color: white;
+}
+
+.leftFlexbox2{
+    color: gray;
+}
+
+@import url(//db.onlinewebfonts.com/c/860c3ec7bbc5da3e97233ccecafe512e?family=Circular+Std+Book);
+
+
+.flexBoxOne{
+    margin-left: 50px;
+    display: flex;
+    gap: 30px;
+    /* border: 1px solid black; */
+    width: 1200px;
+    flex-wrap: wrap;
+}
+
+#hw{
+    height: 60px;
+    width: 60px;
+}
+
+h5{
+    color: white;
+}
+
+#top1{
+    background-color: rgb(64, 64, 64);
+    display: flex;
+    align-items: center;
+    width: 270px;
+    height: 60px;
+    flex-wrap: wrap;
+    gap: 10px;
+   
+}
+
+.artPic{
+    height: 100px;
+    width: 100px;
+}
+
+.artPic{
+    height: 100px;
+    width: 100px;
+}
