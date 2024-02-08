@@ -1,3 +1,7 @@
+html , body{
+    height: 100%;
+    width: 100%;
+}
 .upperBody{
     display: flex;
     justify-content: flex-start;
@@ -99,21 +103,7 @@ h2{
     margin-left: 30px;
 }
 
-/* #part1
-    
 
-#part2{
-
-}
-#part3{
-
-}
-#part4{} */
-
-
-
-
-/* mainBody */
 
 .nmo{
     margin-left: 80px;
@@ -171,8 +161,6 @@ p{
     position: absolute;
 }
 
-/* good morning ends here */
-/* shows you might like */
 h4{
     color: white;
     font-size: 30px;
@@ -262,4 +250,28 @@ p{
     margin-left: 20px;
     height: 20px;
     width: 20px;
+}
+@media (max-width: 600px) {
+    .upperBody {
+        flex-direction: row;
+        height: 650px;
+    }
+
+    .sideBar {
+        display: none;
+    }
+    #goodm{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .taylor{
+        width: 100vw;   }
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 10px 20px 0px 20px;
 }
